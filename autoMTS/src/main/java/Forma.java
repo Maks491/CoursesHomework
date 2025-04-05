@@ -40,7 +40,7 @@ public class Forma {
     }
     public String checkPlace(){
         wait.until(ExpectedConditions.visibilityOf(phonePlace));
-        return phonePlace.getDomAttribute("placeholder");
+        return phonePlace.getDomAttribute("placeh older");
     }
 
 }
